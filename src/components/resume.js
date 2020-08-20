@@ -11,27 +11,19 @@ class Resume extends Component {
       <div>
         <Grid>
           <Cell col={4}>
-            <div style={{textAlign: 'center'}}>
-              <img
-                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
-                alt="avatar"
-                style={{height: '200px'}}
-                 />
-            </div>
+           
 
-            <h2 style={{paddingTop: '2em'}}>Paul Hanna</h2>
+            <h2 style={{paddingTop: '2em'}}>Eric Arias</h2>
             <h4 style={{color: 'grey'}}>Programmer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p>A software engineer that is driven with passion and dedication towards success. My key skills in organization and details are proven to be a great asset to any team. Utilizing programming languages, such as HTML/CSS, Javascript, React, Ruby, and Python, I’m able to help companies achieve their overall design goals.</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Address</h5>
-            <p>1 Hacker Way Menlo Park, 94025</p>
+            <p>241 boylston st. Brookline, MA. 02445</p>
             <h5>Phone</h5>
-            <p>(123) 456-7890</p>
+            <p>(781) 588 - 3958</p>
             <h5>Email</h5>
-            <p>someone@example.com</p>
-            <h5>Web</h5>
-            <p>mywebsite.com</p>
+            <p>eric.ariasv@gmail.com</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>
@@ -39,34 +31,43 @@ class Resume extends Component {
 
 
             <Education
-              startYear={2002}
-              endYear={2006}
-              schoolName="My University"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2016}
+              endYear={2018}
+              schoolName="Bunker Hill Community College"
+              schoolDescription=""
                />
 
-               <Education
-                 startYear={2007}
-                 endYear={2009}
-                 schoolName="My 2nd University"
-                 schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-                  />
+              <Education
+              startYear={2020}
+              endYear={2020}
+              schoolName="General Assembly Immersive Program"
+              schoolDescription=""
+               />
+
+
                 <hr style={{borderTop: '3px solid #e22947'}} />
 
               <h2>Experience</h2>
 
             <Experience
-              startYear={2009}
-              endYear={2012}
-              jobName="First Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2020}
+              endYear={'August ' + 2020}
+              jobName="General Assembly Immersive"
+              jobDescription="•  Build working applications with various programs such as Javascript, React, HTML/CSS, etc.
+              •  Excellent written and verbal communication skills
+              •  Highly adaptable, flexible professional who embraces teamwork, but also enjoys working independently.
+              •  Collaborated with a team to build an application using MongoDB, React, and Javascript.
+              "
               />
 
               <Experience
-                startYear={2012}
-                endYear={2016}
-                jobName="Second Job"
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                startYear={2019}
+                endYear={'current'}
+                jobName="LevelUp/Grubhub Enterprise Support Specialist"
+                jobDescription="• Collaborate to identify and implement solutions to technical requests from users and merchants.
+                • Maintain up-to-date and comprehensive knowledge of the product
+                • Role in LevelUp/Grubhub Partnerships support team technical error and user requests through branded channels (Yelp and Playfull), ensuring a seamless experience for users and merchants.
+                "
                 />
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
@@ -84,7 +85,11 @@ class Resume extends Component {
                     />
                     <Skills
                       skill="React"
-                      progress={25}
+                      progress={70}
+                      />
+                       <Skills
+                      skill="Ruby on Rails"
+                      progress={40}
                       />
 
 
