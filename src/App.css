@@ -114,3 +114,18 @@
   font-size: 5em;
   padding: 8px;
 }
+
+
+.aboutme-grid {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.aboutheader {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
